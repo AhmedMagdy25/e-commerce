@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WCYZUIhLEe2ib-NMykUbOw">
+  <modelElement href="e-commerce.uml#_VxxKcIhLEe2ib-NMykUbOw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YEh3QIhLEe2ib-NMykUbOw" sourceAnchor="436.0,68.0" targetAnchor="149.0,251.0" target="_YFAYYIhLEe2ib-NMykUbOw" source="_YElhoIhLEe2ib-NMykUbOw">
+    <modelElement href="e-commerce.uml#_Xu928IhLEe2ib-NMykUbOw"/>
+    <bendpoints xmi:id="_0Z_4AIhLEe2ib-NMykUbOw" sourceX="563" targetY="79"/>
+    <stereotypes xmi:id="_YEieUIhLEe2ib-NMykUbOw" name="Reference">
+      <modelElement href="e-commerce.uml#_Xu_FEIhLEe2ib-NMykUbOw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YEieUYhLEe2ib-NMykUbOw" text="">
+      <visualProperties xmi:id="_YkV_wIhLEe2ib-NMykUbOw" position="-82.5,-17.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_YEieUohLEe2ib-NMykUbOw" aggregationKind="NONE" name="">
+      <modelElement href="e-commerce.uml#_Xu-eAIhLEe2ib-NMykUbOw"/>
+      <visualProperties xmi:id="_YkUxoIhLEe2ib-NMykUbOw" position="35.15625,-46.5"/>
+      <visibility xmi:id="_YEieU4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YEieVIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YEieVYhLEe2ib-NMykUbOw" aggregationKind="NONE" name="db" navigable="true">
+      <modelElement href="e-commerce.uml#_Xs1I8YhLEe2ib-NMykUbOw"/>
+      <visualProperties xmi:id="_YkWm0IhLEe2ib-NMykUbOw" position="-30.5,11.833333333333371"/>
+      <visibility xmi:id="_YEieVohLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YEieV4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_YEk6kIhLEe2ib-NMykUbOw" source="_YElhoIhLEe2ib-NMykUbOw">
+    <modelElement href="e-commerce.uml#_Xu_FEYhLEe2ib-NMykUbOw"/>
+    <stereotypes xmi:id="_YEk6kYhLEe2ib-NMykUbOw" name="Reference">
+      <modelElement href="e-commerce.uml#_XvATMIhLEe2ib-NMykUbOw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_YEk6kohLEe2ib-NMykUbOw" text=""/>
+    <sourceRole xmi:id="_YEk6k4hLEe2ib-NMykUbOw" aggregationKind="NONE" name="">
+      <modelElement href="e-commerce.uml#_Xu_FEohLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YEk6lIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YEk6lYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_YEk6lohLEe2ib-NMykUbOw" aggregationKind="NONE" name="gson" navigable="true">
+      <modelElement href="e-commerce.uml#_Xs1wAYhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YEk6l4hLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YEk6mIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YAcBcIhLEe2ib-NMykUbOw" name="Login">
+    <modelElement href="e-commerce.uml#_XgadkIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YAcBcYhLEe2ib-NMykUbOw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YAcBcohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YAcBc4hLEe2ib-NMykUbOw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="e-commerce.uml#_Xsqw4IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YAcBdIhLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YAcBdYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YAcBdohLEe2ib-NMykUbOw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YAcBd4hLEe2ib-NMykUbOw" name="Login">
+      <modelElement href="e-commerce.uml#_Xg0GMIhLEe2ib-NMykUbOw"/>
+      <keywords xmi:id="_YAcBeIhLEe2ib-NMykUbOw" keyword="create"/>
+      <visibility xmi:id="_YAcBeYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YAcBeohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YAcBe4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xg4-sohLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YAcBfIhLEe2ib-NMykUbOw" name="Login">
+          <modelElement href="e-commerce.uml#_XgadkIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YAcBfYhLEe2ib-NMykUbOw" name="doPost">
+      <modelElement href="e-commerce.uml#_XsJzgIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YAcBfohLEe2ib-NMykUbOw" label="#"/>
+      <cardinality xmi:id="_YAcBf4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YAcBgIhLEe2ib-NMykUbOw" name="request">
+        <modelElement href="e-commerce.uml#_XsJzgYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YAcBgYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YAcBgohLEe2ib-NMykUbOw" name="HttpServletRequest">
+          <modelElement href="e-commerce.uml#_XqxTcYhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YAcBg4hLEe2ib-NMykUbOw" name="response">
+        <modelElement href="e-commerce.uml#_XsJzgohLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YAcBhIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YAcBhYhLEe2ib-NMykUbOw" name="HttpServletResponse">
+          <modelElement href="e-commerce.uml#_Xq2L8YhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YDXZoIhLEe2ib-NMykUbOw" name="ServletException">
+    <modelElement href="e-commerce.uml#_Xqp-sIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YDYAsIhLEe2ib-NMykUbOw" position="194.0,152.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_YDYAsYhLEe2ib-NMykUbOw" name="Reference">
+      <modelElement href="e-commerce.uml#_Xqrz4IhLEe2ib-NMykUbOw"/>
+    </stereotypes>
+    <visibility xmi:id="_YDYAsohLEe2ib-NMykUbOw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YDc5MIhLEe2ib-NMykUbOw" name="IOException">
+    <modelElement href="e-commerce.uml#_XrDnUIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YDc5MYhLEe2ib-NMykUbOw" position="208.0,263.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_YDc5MohLEe2ib-NMykUbOw" name="Reference">
+      <modelElement href="e-commerce.uml#_XrIf0IhLEe2ib-NMykUbOw"/>
+    </stereotypes>
+    <visibility xmi:id="_YDc5M4hLEe2ib-NMykUbOw" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YEy9AIhLEe2ib-NMykUbOw" name="Products">
+    <modelElement href="e-commerce.uml#_XigvUIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YEy9AYhLEe2ib-NMykUbOw" position="356.0,208.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YEy9AohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YEy9A4hLEe2ib-NMykUbOw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="e-commerce.uml#_Xs2-IIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YEy9BIhLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YEy9BYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YEy9BohLEe2ib-NMykUbOw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YEy9B4hLEe2ib-NMykUbOw" name="Products">
+      <modelElement href="e-commerce.uml#_XijyoIhLEe2ib-NMykUbOw"/>
+      <keywords xmi:id="_YEy9CIhLEe2ib-NMykUbOw" keyword="create"/>
+      <visibility xmi:id="_YEy9CYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YEy9CohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YEy9C4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XikZsohLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YEy9DIhLEe2ib-NMykUbOw" name="Products">
+          <modelElement href="e-commerce.uml#_XigvUIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YEy9DYhLEe2ib-NMykUbOw" name="doGet">
+      <modelElement href="e-commerce.uml#_XscucIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YEy9DohLEe2ib-NMykUbOw" label="#"/>
+      <cardinality xmi:id="_YEy9D4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YEy9EIhLEe2ib-NMykUbOw" name="request">
+        <modelElement href="e-commerce.uml#_XscucYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YEy9EYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YEy9EohLEe2ib-NMykUbOw" name="HttpServletRequest">
+          <modelElement href="e-commerce.uml#_XqxTcYhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YEy9E4hLEe2ib-NMykUbOw" name="response">
+        <modelElement href="e-commerce.uml#_XscucohLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YEy9FIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YEy9FYhLEe2ib-NMykUbOw" name="HttpServletResponse">
+          <modelElement href="e-commerce.uml#_Xq2L8YhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YFAYYIhLEe2ib-NMykUbOw" name="DBFuns" associationsIn="_YEh3QIhLEe2ib-NMykUbOw">
+    <modelElement href="e-commerce.uml#_XipSMIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YFAYYYhLEe2ib-NMykUbOw" position="873.0,80.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YFAYYohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YFAYY4hLEe2ib-NMykUbOw" defaultValue="&quot;jdbc:mysql://localhost:3306/e-commerce?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC&quot;" name="dbUrl">
+      <modelElement href="e-commerce.uml#_Xs3lMIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFAYZIhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs4MQIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFAYZYhLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YFAYZohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YFAYZ4hLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YFAYaIhLEe2ib-NMykUbOw" defaultValue="&quot;root&quot;" name="dbName">
+      <modelElement href="e-commerce.uml#_Xs4zUIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFAYaYhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs5aYIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFAYaohLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YFAYa4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YFAYbIhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YFA_cIhLEe2ib-NMykUbOw" defaultValue="&quot;wMK-nS6g-mcd6!R&quot;" name="dbPassword">
+      <modelElement href="e-commerce.uml#_Xs6BcIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFA_cYhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs7PkIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFA_cohLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YFA_c4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YFA_dIhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YFA_dYhLEe2ib-NMykUbOw" defaultValue="&quot;com.mysql.cj.jdbc.Driver&quot;" name="dbDriver">
+      <modelElement href="e-commerce.uml#_Xs7PkYhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFA_dohLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs8dsIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFA_d4hLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YFA_eIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YFA_eYhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YFA_eohLEe2ib-NMykUbOw" name="loadDriver">
+      <modelElement href="e-commerce.uml#_XirucIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YFA_e4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_fIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YFA_fYhLEe2ib-NMykUbOw" name="dbDriver">
+        <modelElement href="e-commerce.uml#_XirucYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YFA_fohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YFA_f4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YFA_gIhLEe2ib-NMykUbOw" name="getConnection">
+      <modelElement href="e-commerce.uml#_XisVgIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YFA_gYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_gohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YFA_g4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XsfKsIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YFA_hIhLEe2ib-NMykUbOw" name="Connection">
+          <modelElement href="e-commerce.uml#_Xrj9oIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YFA_hYhLEe2ib-NMykUbOw" name="getProducts">
+      <modelElement href="e-commerce.uml#_XiuKsIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFA_hohLEe2ib-NMykUbOw" name="Generics">
+        <modelElement href="e-commerce.uml#_XixOAIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFA_h4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_iIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YFA_iYhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XsfxwIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YFA_iohLEe2ib-NMykUbOw" name="ArrayList">
+          <modelElement href="e-commerce.uml#_XrJG4IhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YFA_i4hLEe2ib-NMykUbOw" name="getOrders">
+      <modelElement href="e-commerce.uml#_XizqQIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFA_jIhLEe2ib-NMykUbOw" name="Generics">
+        <modelElement href="e-commerce.uml#_Xi2tkIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFA_jYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_johLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YFA_j4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XsjcIIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YFA_kIhLEe2ib-NMykUbOw" name="ArrayList">
+          <modelElement href="e-commerce.uml#_XrJG4IhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YFA_kYhLEe2ib-NMykUbOw" name="userID">
+        <modelElement href="e-commerce.uml#_XizqQYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YFA_kohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YFA_k4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YFA_lIhLEe2ib-NMykUbOw" name="insert">
+      <modelElement href="e-commerce.uml#_Xr0cUIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YFA_lYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_lohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YFA_l4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xr1DYIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YFA_mIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YFA_mYhLEe2ib-NMykUbOw" name="user">
+        <modelElement href="e-commerce.uml#_Xr0cUYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YFA_mohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YFA_m4hLEe2ib-NMykUbOw" name="User">
+          <modelElement href="e-commerce.uml#_XjsbEIhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YFA_nIhLEe2ib-NMykUbOw" name="authUser">
+      <modelElement href="e-commerce.uml#_Xr1qcIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YFA_nYhLEe2ib-NMykUbOw" name="Generics">
+        <modelElement href="e-commerce.uml#_Xr24kIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YFA_nohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_n4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YFA_oIhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XsfKsYhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YFA_oYhLEe2ib-NMykUbOw" name="ArrayList">
+          <modelElement href="e-commerce.uml#_XrJG4IhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YFA_oohLEe2ib-NMykUbOw" name="user">
+        <modelElement href="e-commerce.uml#_Xr1qcYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YFA_o4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YFA_pIhLEe2ib-NMykUbOw" name="User">
+          <modelElement href="e-commerce.uml#_XjsbEIhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YFA_pYhLEe2ib-NMykUbOw" name="makeOrder">
+      <modelElement href="e-commerce.uml#_XsgY0IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YFA_pohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YFA_p4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YFA_qIhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xsg_4IhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YFA_qYhLEe2ib-NMykUbOw" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YFA_qohLEe2ib-NMykUbOw" name="ids">
+        <modelElement href="e-commerce.uml#_XsgY0YhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YFA_q4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YFA_rIhLEe2ib-NMykUbOw" name="ArrayList">
+          <modelElement href="e-commerce.uml#_XrJG4IhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YGKO8IhLEe2ib-NMykUbOw" name="Product">
+    <modelElement href="e-commerce.uml#_XjdxkIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YGKO8YhLEe2ib-NMykUbOw" position="526.0,-241.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YGKO8ohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YGKO84hLEe2ib-NMykUbOw" name="id">
+      <modelElement href="e-commerce.uml#_Xs9r0IhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGKO9IhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs-S4IhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGKO9YhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_Xs-58IhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGKO9ohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKO94hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGKO-IhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YGKO-YhLEe2ib-NMykUbOw" name="price">
+      <modelElement href="e-commerce.uml#_XtBWMIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKO-ohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKO-4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGKO_IhLEe2ib-NMykUbOw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YGKO_YhLEe2ib-NMykUbOw" name="name">
+      <modelElement href="e-commerce.uml#_XupG0IhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGKO_ohLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_Xupt4IhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGKO_4hLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XuqU8IhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGKPAIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPAYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGKPAohLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YGKPA4hLEe2ib-NMykUbOw" name="image">
+      <modelElement href="e-commerce.uml#_XuqU8YhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGKPBIhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XurjEIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGKPBYhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XusKIIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGKPBohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPB4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGKPCIhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YGKPCYhLEe2ib-NMykUbOw" name="details">
+      <modelElement href="e-commerce.uml#_XusKIYhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGKPCohLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XutYQIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGKPC4hLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xut_UIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGKPDIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPDYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGKPDohLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YGKPD4hLEe2ib-NMykUbOw" name="getName">
+      <modelElement href="e-commerce.uml#_Xjhb8IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKPEIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPEYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGKPEohLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XjiDAIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGKPE4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YGKPFIhLEe2ib-NMykUbOw" name="setName">
+      <modelElement href="e-commerce.uml#_XjiqEIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKPFYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPFohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YGKPF4hLEe2ib-NMykUbOw" name="name">
+        <modelElement href="e-commerce.uml#_XjjRIIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGKPGIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGKPGYhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGKPGohLEe2ib-NMykUbOw" name="getImage">
+      <modelElement href="e-commerce.uml#_Xjj4MIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKPG4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPHIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGKPHYhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xjj4MYhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGKPHohLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YGKPH4hLEe2ib-NMykUbOw" name="setImage">
+      <modelElement href="e-commerce.uml#_XjlGUIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKPIIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPIYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YGKPIohLEe2ib-NMykUbOw" name="image">
+        <modelElement href="e-commerce.uml#_XjltYIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGKPI4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGKPJIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGKPJYhLEe2ib-NMykUbOw" name="getDetails">
+      <modelElement href="e-commerce.uml#_Xjm7gIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKPJohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPJ4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGKPKIhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XjnikIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGKPKYhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YGKPKohLEe2ib-NMykUbOw" name="setDetails">
+      <modelElement href="e-commerce.uml#_XjoJoIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGKPK4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGKPLIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YGKPLYhLEe2ib-NMykUbOw" name="details">
+        <modelElement href="e-commerce.uml#_XjowsIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGKPLohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGKPL4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YGnh8IhLEe2ib-NMykUbOw" name="User">
+    <modelElement href="e-commerce.uml#_XjsbEIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YGnh8YhLEe2ib-NMykUbOw" position="59.0,-271.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YGnh8ohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YGnh84hLEe2ib-NMykUbOw" name="name">
+      <modelElement href="e-commerce.uml#_XtEZgIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGnh9IhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XtFAkIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGnh9YhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XtFnoIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGnh9ohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGnh94hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGnh-IhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YGnh-YhLEe2ib-NMykUbOw" name="password">
+      <modelElement href="e-commerce.uml#_XuumYIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGnh-ohLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XuwbkIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGnh-4hLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XuwbkYhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGnh_IhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGnh_YhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGnh_ohLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YGnh_4hLEe2ib-NMykUbOw" name="email">
+      <modelElement href="e-commerce.uml#_XuxCoIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YGniAIhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XuxCoYhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YGniAYhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XuxpsIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YGniAohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGniA4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YGniBIhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YGniBYhLEe2ib-NMykUbOw" name="User">
+      <modelElement href="e-commerce.uml#_XjxTkIhLEe2ib-NMykUbOw"/>
+      <keywords xmi:id="_YGniBohLEe2ib-NMykUbOw" keyword="create"/>
+      <visibility xmi:id="_YGniB4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGniCIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGniCYhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xjx6oohLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGniCohLEe2ib-NMykUbOw" name="User">
+          <modelElement href="e-commerce.uml#_XjsbEIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YGniC4hLEe2ib-NMykUbOw" name="User">
+      <modelElement href="e-commerce.uml#_XjzIwIhLEe2ib-NMykUbOw"/>
+      <keywords xmi:id="_YGniDIhLEe2ib-NMykUbOw" keyword="create"/>
+      <visibility xmi:id="_YGniDYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGniDohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGoJAIhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xj0W4IhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGoJAYhLEe2ib-NMykUbOw" name="User">
+          <modelElement href="e-commerce.uml#_XjsbEIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_YGoJAohLEe2ib-NMykUbOw" name="name">
+        <modelElement href="e-commerce.uml#_XjzIwYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGoJA4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGoJBIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YGoJBYhLEe2ib-NMykUbOw" name="email">
+        <modelElement href="e-commerce.uml#_Xjzv0IhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGoJBohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGoJB4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YGoJCIhLEe2ib-NMykUbOw" name="password">
+        <modelElement href="e-commerce.uml#_Xjzv0YhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGoJCYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGoJCohLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGoJC4hLEe2ib-NMykUbOw" name="getPassword">
+      <modelElement href="e-commerce.uml#_Xj0W4YhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGoJDIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGoJDYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGoJDohLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xj098IhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGoJD4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YGoJEIhLEe2ib-NMykUbOw" name="setPassword">
+      <modelElement href="e-commerce.uml#_Xj1lAIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGoJEYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGoJEohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YGoJE4hLEe2ib-NMykUbOw" name="password">
+        <modelElement href="e-commerce.uml#_Xj2MEIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGoJFIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGoJFYhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YGoJFohLEe2ib-NMykUbOw" name="getEmail">
+      <modelElement href="e-commerce.uml#_Xj2MEYhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGoJF4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGoJGIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YGoJGYhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xj2zIIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YGoJGohLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YGoJG4hLEe2ib-NMykUbOw" name="setEmail">
+      <modelElement href="e-commerce.uml#_Xj7EkIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YGoJHIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YGoJHYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YGoJHohLEe2ib-NMykUbOw" name="email">
+        <modelElement href="e-commerce.uml#_Xj7EkYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YGoJH4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YGoJIIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YElhoIhLEe2ib-NMykUbOw" name="Orders" associationsOut="_YEh3QIhLEe2ib-NMykUbOw _YEk6kIhLEe2ib-NMykUbOw">
+    <modelElement href="e-commerce.uml#_XhyWkIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YElhoYhLEe2ib-NMykUbOw" position="23.0,342.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YElhoohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YElho4hLEe2ib-NMykUbOw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="e-commerce.uml#_Xs0h4IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YElhpIhLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YElhpYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YElhpohLEe2ib-NMykUbOw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YElhp4hLEe2ib-NMykUbOw" defaultValue="new DBFuns()" name="db">
+      <modelElement href="e-commerce.uml#_Xs1I8YhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YElhqIhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs1wAIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YElhqYhLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YElhqohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YElhq4hLEe2ib-NMykUbOw" name="DBFuns">
+        <modelElement href="e-commerce.uml#_XipSMIhLEe2ib-NMykUbOw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YElhrIhLEe2ib-NMykUbOw" defaultValue="new Gson()" name="gson">
+      <modelElement href="e-commerce.uml#_Xs1wAYhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YElhrYhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xs2XEIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YElhrohLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YElhr4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YElhsIhLEe2ib-NMykUbOw" name="Gson">
+        <modelElement href="e-commerce.uml#_XrOmcIhLEe2ib-NMykUbOw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YElhsYhLEe2ib-NMykUbOw" name="Orders">
+      <modelElement href="e-commerce.uml#_Xh65cIhLEe2ib-NMykUbOw"/>
+      <keywords xmi:id="_YElhsohLEe2ib-NMykUbOw" keyword="create"/>
+      <visibility xmi:id="_YElhs4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YElhtIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YElhtYhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_Xh8HkYhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YElhtohLEe2ib-NMykUbOw" name="Orders">
+          <modelElement href="e-commerce.uml#_XhyWkIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YElht4hLEe2ib-NMykUbOw" name="doGet">
+      <modelElement href="e-commerce.uml#_XsX18IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YElhuIhLEe2ib-NMykUbOw" label="#"/>
+      <cardinality xmi:id="_YElhuYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YElhuohLEe2ib-NMykUbOw" name="request">
+        <modelElement href="e-commerce.uml#_XsX18YhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YElhu4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YElhvIhLEe2ib-NMykUbOw" name="HttpServletRequest">
+          <modelElement href="e-commerce.uml#_XqxTcYhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YElhvYhLEe2ib-NMykUbOw" name="response">
+        <modelElement href="e-commerce.uml#_XsYdAIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YElhvohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YElhv4hLEe2ib-NMykUbOw" name="HttpServletResponse">
+          <modelElement href="e-commerce.uml#_Xq2L8YhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YElhwIhLEe2ib-NMykUbOw" name="doPost">
+      <modelElement href="e-commerce.uml#_XsZrIIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YElhwYhLEe2ib-NMykUbOw" label="#"/>
+      <cardinality xmi:id="_YElhwohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YElhw4hLEe2ib-NMykUbOw" name="request">
+        <modelElement href="e-commerce.uml#_XsZrIYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YElhxIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YElhxYhLEe2ib-NMykUbOw" name="HttpServletRequest">
+          <modelElement href="e-commerce.uml#_XqxTcYhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YElhxohLEe2ib-NMykUbOw" name="response">
+        <modelElement href="e-commerce.uml#_XsZrIohLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YElhx4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YElhyIhLEe2ib-NMykUbOw" name="HttpServletResponse">
+          <modelElement href="e-commerce.uml#_Xq2L8YhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YHJGYIhLEe2ib-NMykUbOw" name="Signup">
+    <modelElement href="e-commerce.uml#_XkAkIIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YHJGYYhLEe2ib-NMykUbOw" position="-510.0,294.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YHJGYohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YHJGY4hLEe2ib-NMykUbOw" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="e-commerce.uml#_XtJ5EIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YHJGZIhLEe2ib-NMykUbOw" label="-"/>
+      <cardinality xmi:id="_YHJGZYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YHJGZohLEe2ib-NMykUbOw" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YHJGZ4hLEe2ib-NMykUbOw" name="Signup">
+      <modelElement href="e-commerce.uml#_XkCZUIhLEe2ib-NMykUbOw"/>
+      <keywords xmi:id="_YHJGaIhLEe2ib-NMykUbOw" keyword="create"/>
+      <visibility xmi:id="_YHJGaYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YHJGaohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YHJGa4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XkCZU4hLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YHJGbIhLEe2ib-NMykUbOw" name="Signup">
+          <modelElement href="e-commerce.uml#_XkAkIIhLEe2ib-NMykUbOw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YHJGbYhLEe2ib-NMykUbOw" name="doPost">
+      <modelElement href="e-commerce.uml#_Xsl4YIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YHJGbohLEe2ib-NMykUbOw" label="#"/>
+      <cardinality xmi:id="_YHJGb4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YHJGcIhLEe2ib-NMykUbOw" name="request">
+        <modelElement href="e-commerce.uml#_XsmfcIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YHJGcYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YHJGcohLEe2ib-NMykUbOw" name="HttpServletRequest">
+          <modelElement href="e-commerce.uml#_XqxTcYhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_YHJGc4hLEe2ib-NMykUbOw" name="response">
+        <modelElement href="e-commerce.uml#_XsmfcYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YHJGdIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YHJGdYhLEe2ib-NMykUbOw" name="HttpServletResponse">
+          <modelElement href="e-commerce.uml#_Xq2L8YhLEe2ib-NMykUbOw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_YDnRQIhLEe2ib-NMykUbOw" name="OrderClass">
+    <modelElement href="e-commerce.uml#_Xg93MIhLEe2ib-NMykUbOw"/>
+    <visualProperties xmi:id="_YDnRQYhLEe2ib-NMykUbOw" position="-346.0,-168.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_YDnRQohLEe2ib-NMykUbOw" label="+"/>
+    <attributes xmi:id="_YDnRQ4hLEe2ib-NMykUbOw" name="userID">
+      <modelElement href="e-commerce.uml#_XsubQIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YDnRRIhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XsvCUIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YDnRRYhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XswQcIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YDnRRohLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YDnRR4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YDnRSIhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YDnRSYhLEe2ib-NMykUbOw" name="productPrice">
+      <modelElement href="e-commerce.uml#_XsxekIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YDnRSohLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XsyssIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YDnRS4hLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YDnRTIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YDnRTYhLEe2ib-NMykUbOw" name="float">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YDnRTohLEe2ib-NMykUbOw" name="productID">
+      <modelElement href="e-commerce.uml#_XujAMIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YDnRT4hLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XujnQIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YDnRUIhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XujnQYhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YDnRUYhLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YDnRUohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YDnRU4hLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YDnRVIhLEe2ib-NMykUbOw" name="productName">
+      <modelElement href="e-commerce.uml#_XukOUIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YDnRVYhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_Xuk1YIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YDnRVohLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_Xuk1YYhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YDnRV4hLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YDnRWIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YDnRWYhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YDnRWohLEe2ib-NMykUbOw" name="productImg">
+      <modelElement href="e-commerce.uml#_Xuk1YohLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YDnRW4hLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XulccIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YDnRXIhLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XulccYhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YDnRXYhLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YDnRXohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YDnRX4hLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_YDnRYIhLEe2ib-NMykUbOw" name="timestamp">
+      <modelElement href="e-commerce.uml#_XumDgIhLEe2ib-NMykUbOw"/>
+      <stereotypes xmi:id="_YDnRYYhLEe2ib-NMykUbOw" name="MultiDeclaration">
+        <modelElement href="e-commerce.uml#_XunRoIhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_YDnRYohLEe2ib-NMykUbOw" name="LegacyStyledElement">
+        <modelElement href="e-commerce.uml#_XunRoYhLEe2ib-NMykUbOw"/>
+      </stereotypes>
+      <visibility xmi:id="_YDnRY4hLEe2ib-NMykUbOw" label="~"/>
+      <cardinality xmi:id="_YDnRZIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <type xmi:id="_YDnRZYhLEe2ib-NMykUbOw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_YDnRZohLEe2ib-NMykUbOw" name="getProductImg">
+      <modelElement href="e-commerce.uml#_XhPkAIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDnRZ4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDnRaIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YDnRaYhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XhSAQIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YDnRaohLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YDnRa4hLEe2ib-NMykUbOw" name="setProductImg">
+      <modelElement href="e-commerce.uml#_XhTOYIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDnRbIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDnRbYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YDnRbohLEe2ib-NMykUbOw" name="productImg">
+        <modelElement href="e-commerce.uml#_XhTOYYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YDnRb4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YDnRcIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YDnRcYhLEe2ib-NMykUbOw" name="getUserID">
+      <modelElement href="e-commerce.uml#_XhVDkIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDnRcohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDnRc4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YDnRdIhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XhWRsIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YDnRdYhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YDnRdohLEe2ib-NMykUbOw" name="setUserID">
+      <modelElement href="e-commerce.uml#_XhYG4IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDnRd4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDnReIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YDnReYhLEe2ib-NMykUbOw" name="userID">
+        <modelElement href="e-commerce.uml#_XhYt8IhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YDnReohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YDnRe4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YDnRfIhLEe2ib-NMykUbOw" name="getProductID">
+      <modelElement href="e-commerce.uml#_XhZVAIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDnRfYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDnRfohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YDnRf4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XhZ8EIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YDnRgIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YDnRgYhLEe2ib-NMykUbOw" name="setProductID">
+      <modelElement href="e-commerce.uml#_XhbKMIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4UIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4UYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YDn4UohLEe2ib-NMykUbOw" name="productID">
+        <modelElement href="e-commerce.uml#_XhbxQIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YDn4U4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YDn4VIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YDn4VYhLEe2ib-NMykUbOw" name="getProductName">
+      <modelElement href="e-commerce.uml#_XhdmcIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4VohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4V4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YDn4WIhLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XhgpwIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YDn4WYhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YDn4WohLEe2ib-NMykUbOw" name="setProductName">
+      <modelElement href="e-commerce.uml#_Xhh34IhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4W4hLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4XIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YDn4XYhLEe2ib-NMykUbOw" name="productName">
+        <modelElement href="e-commerce.uml#_Xhie8IhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YDn4XohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YDn4X4hLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YDn4YIhLEe2ib-NMykUbOw" name="getTimestamp">
+      <modelElement href="e-commerce.uml#_Xhie8YhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4YYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4YohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YDn4Y4hLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XhjGAIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YDn4ZIhLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YDn4ZYhLEe2ib-NMykUbOw" name="setTimestamp">
+      <modelElement href="e-commerce.uml#_XhjtEIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4ZohLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4Z4hLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YDn4aIhLEe2ib-NMykUbOw" name="timestamp">
+        <modelElement href="e-commerce.uml#_XhjtEYhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YDn4aYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YDn4aohLEe2ib-NMykUbOw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_YDn4a4hLEe2ib-NMykUbOw" name="getProductPrice">
+      <modelElement href="e-commerce.uml#_XhkUIIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4bIhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4bYhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_YDn4bohLEe2ib-NMykUbOw">
+        <modelElement href="e-commerce.uml#_XhmwYIhLEe2ib-NMykUbOw"/>
+        <type xmi:id="_YDn4b4hLEe2ib-NMykUbOw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_YDn4cIhLEe2ib-NMykUbOw" name="setProductPrice">
+      <modelElement href="e-commerce.uml#_Xhn-gIhLEe2ib-NMykUbOw"/>
+      <visibility xmi:id="_YDn4cYhLEe2ib-NMykUbOw" label="+"/>
+      <cardinality xmi:id="_YDn4cohLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_YDn4c4hLEe2ib-NMykUbOw" name="producrPrice">
+        <modelElement href="e-commerce.uml#_XholkIhLEe2ib-NMykUbOw"/>
+        <cardinality xmi:id="_YDn4dIhLEe2ib-NMykUbOw" label="1" max="1" min="1"/>
+        <type xmi:id="_YDn4dYhLEe2ib-NMykUbOw" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
